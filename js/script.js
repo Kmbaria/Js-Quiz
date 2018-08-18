@@ -63,3 +63,9 @@ function validate(){
     }
 
 }
+
+function refresh(){
+
+   jQuery('.result').hide();
+   scrollUp();
+}
