@@ -1,0 +1,30 @@
+.result{
+	border: 1px solid silver;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	font-size: 20px;
+	display: none;
+}
+
+#function {
+ background: green;
+ border-radius: 10px;
+ padding: 10px;
+ color: white;
+ font-size: 16px;
+ transition-duration: .5s;
+ margin-top: 15px;
+}
+#button:hover {
+ background: white;
+ border: ipx solid green;
+ color: black;
+ cursor: pointer;
+}
+h1 {
+background-color: #ffff;
+}
+body {
+	background-color: black;
+}
