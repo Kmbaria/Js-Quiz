@@ -9,10 +9,10 @@ the quiz you will have to click the reset button. Now that's the{ Javascript Qui
 ## Setup/Installation Requirements
 There are no various steps for Installation just
 git clone https://github.com/kmbaria.github.io/Js-Quiz.git</br>
-cd js-Quiz</br>
-sublime .</br>
-code .</br>
-OR
+.cd js-Quiz</br>
+.sublime .</br>
+.code .</br>
+OR</br>
 run this link:https://kmbaria.github.io/Js-Quiz/
 
 ## Technologies Used
@@ -61,5 +61,5 @@ Output Example: Your score :30.
 https://kmbaria.github.io/Js-Quiz/
 
 ### License
-jojik.Gk (c) {2018} **{Pixels tech company}**
+jojik.Gk (c) {2018} **{Pixels tech company}**</br>
 This site is free of charge.
