@@ -1,6 +1,6 @@
   function calculateScore(){
 
-  var correctAnswers = ['a','b','a'];
+  var correctAnswers = ['a','b','a', 'b'];
   var score = 0;
   var point = 10;
   var answer = [];
@@ -30,7 +30,7 @@
 function scrollUp(){
     $("html, body").animate({
         scrollTop: $(document).height()
-    }, 100);                  
+    }, 100);
 
     //scroll back up
     $("html, body").animate({
@@ -58,9 +58,16 @@ function validate(){
         jQuery('.result').text('Please select the third answer');
         scrollUp();
         return false;
+    }else if(jQuery("input[name='question4']").is(':checked') == false){
+          //show element since we've hid it in css
+          jQuery('.result').show();
+          jQuery('.result').text('Please select the final answer');
+          scrollUp();
+          return false;
     }else{
         calculateScore();
     }
+
 
 }
 
