@@ -24,12 +24,15 @@
  color: black;
  cursor: pointer;
 }
-
+.container{
+background-color: #FFA500 !important;
+}
 .well{
-background-color: #C0C0C0 !important;
+background-color:
+#DB7093 !important;
 }
 body {
-	background-color: #FAF0E6 !important;
+	background-color: #FFA500 !important;
 }
 
 .jumbotron {
