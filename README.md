@@ -49,7 +49,7 @@ Input Example: correct
 
 Output Example: input value = 10 points
 
-The program should return the Submit Answers button is clicked when all questions are answered:
+The program should return the Submit Answers button is clicked when all questions are answered.</br>
 And repeat or refresh using the reset button
 
 Input Example: Click on Grade Me
