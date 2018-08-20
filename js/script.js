@@ -1,6 +1,16 @@
+$(document).ready(function() {
+  $(".start").click(function(){
+    $(".intro").hide();
+      $("#questions").show();
+
+  });
+});
+
+
+
   function calculateScore(){
 
-  var correctAnswers = ['a','b','a', 'b'];
+  var correctAnswers = ['a','b','a','b'];
   var score = 0;
   var point = 10;
   var answer = [];
@@ -58,7 +68,7 @@ function validate(){
         jQuery('.result').text('Please select the third answer');
         scrollUp();
         return false;
-    }else if(jQuery("input[name='question4']").is(':checked') == false){
+      }else if(jQuery("input[name='question4']").is(':checked') == false){
           //show element since we've hid it in css
           jQuery('.result').show();
           jQuery('.result').text('Please select the final answer');

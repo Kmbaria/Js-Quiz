@@ -24,13 +24,17 @@
  color: black;
  cursor: pointer;
 }
-
+#questions{
+	display: none;
+}
 .well{
 background-color: #C0C0C0 !important;
 }
+
 body {
 	background-color: #98FB98 !important;
 	font-weight: normal!important;
+
 }
 
 .jumbotron {

@@ -19,8 +19,14 @@
 
         <!-- This is where we will load the score -->
         <div class="result"></div>
-
-        <form>
+        <div class="well intro">
+        <h2>  Welcome Javascript Quiz.</h2>
+        <p>Please answer all Questions.</p>
+        <p>Test duration 10 minutes.</p>
+        <p>Good Luck!</p>
+        <button class="start btn btn-warning btn-lg">START</button>
+      </div>
+        <form id= "questions">
             <div class="well">
             <b>1. What does HTML stand for?</b></div>
 
@@ -68,8 +74,8 @@
             <br>
 
             <div align="center">
-                <input type="button" value="Grade Me!" name="submit" onClick="validate()" />
-                <input type="reset" value="Reset" name="reset"  onClick="refresh()" />
+                <input class="btn btn-warning btn-lg" type="button" value="Grade Me!" name="submit" onClick="validate()" />
+                <input class="btn btn-warning btn-lg" type="reset" value="Reset" name="reset"  onClick="location.reload()" />
             </div>
         </form>
         </div>
