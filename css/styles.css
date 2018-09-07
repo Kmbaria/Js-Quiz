@@ -27,16 +27,34 @@
 #questions{
 	display: none;
 }
+/*h1{
+	color: black !important;
+}*/
 .well{
-background-color: #C0C0C0 !important;
+background-color: #98FB98 ;
+background-image: url("../image/java.jpg");
+background-position: 0% 51%;
+
+background-size: cover;
+background-repeat: no-repeat;
 }
+
 
 body {
 	background-color: #98FB98 !important;
 	font-weight: normal!important;
+	background-image: url("../image/fela.jpg");
+	background-position: 0% 51%;
 
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 .jumbotron {
-	background-color: #FFDEAD !important;
+	/*background-color: #FFDEAD !important;*/
+	background-image: url("../image/java.jpg");
+	background-position: 0% 51%;
+
+  background-size: cover;
+  background-repeat: no-repeat;
 }
